@@ -143,3 +143,159 @@ footer{
     margin-top: 100px;
     margin-bottom: 120px;
 }
+
+.card_price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card_price p{
+    width: 211px;
+height: 25px;
+flex-shrink: 0;
+color: #000;
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: 21.5px; /* 107.5% */
+letter-spacing: 2px;
+}
+
+.block ,.manage{
+  display: flex;
+  align-items: center;
+  
+  
+  
+}
+.manage{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.manage svg {
+    width: 26px;
+    height: 26px;
+    transform: rotate(-90deg);
+    flex-shrink: 0;
+    position: absolute;
+    top: 450px;
+    left:100px;
+
+   
+}
+
+.block p, .manage p{
+    margin-left: 20px;
+    height: 36px;
+    
+ 
+color: #000;
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: 21.5px; /* 107.5% */
+letter-spacing: 2px;
+}
+.block svg{
+    width: 26px;
+    height: 26px;
+    transform: rotate(-90deg);
+    flex-shrink: 0;
+    position: absolute;
+    top: 390px;
+    left:100px;
+}
+
+
+select{
+    width: 247px;
+    height: 68px;
+    
+}
+option{
+    color: #000;
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: 10px; /* 50% */
+letter-spacing: 2px;
+border-radius: 10px;
+background: #38A37F;
+}
+div select{
+    border-radius: 10px;
+background: #38A37F;
+
+margin-top: 200px;
+
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    height: 43px;
+
+color: #000;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 10px; /* 41.667% */
+letter-spacing: 2.4px;
+}
+
+.manage{
+    margin-bottom: 250px;
+}
+
+@media screen and (max-width:727px){
+    .block svg{
+        position: absolute;
+        top: 390px;
+        left:10px; 
+        
+    }
+    .manage svg{
+        position: absolute;
+        
+        left:10px; 
+        top: 450px;
+    }
+  
+    
+}
+@media screen and (max-width:569px){
+    .block svg{
+        position: absolute;
+        top: 390px;
+        left:10px; 
+        
+        
+    }
+    .manage svg{
+        position: absolute;
+        
+        left:10px; 
+        top: 450px;
+    }
+    .block p, .manage p{
+        margin-left: 40px;
+    }
+    
+}
